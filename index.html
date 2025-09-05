@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">PrabhaX</h1>
+        <p class="slogan">( Youtube video downloader )</p>
+        <form action="/download" method="post">
+            <div class="input-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" name="url" placeholder="Paste your video link...." required>
+            </div>
+            <button type="submit" class="download-button">Download <span class="arrow-icon">⬇️</span></button>
+        </form>
+    </div>
+</body>
+</html>
